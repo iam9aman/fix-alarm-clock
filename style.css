@@ -1,0 +1,101 @@
+body{
+    /* background-color:beige; */
+   
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 10px;
+}
+h1{
+    color: rgba(209, 180, 180, 0.8);
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.clock{
+    display: flex;
+}
+.box{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    margin:12px ;
+    background-color: rgba(209, 180, 180, 0.8)
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images7.alphacoders.com/133/thumb-1920-1338126.png');
+    position: relative;
+    border-radius: 0;
+
+}
+.img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(8, 8, 8, .8);
+    object-fit: cover;
+   border-radius: 0;
+}
+.apm{
+    width: 150px;
+}
+.dot{
+    font-size: 100px;
+    color: rgba(209, 180, 180, 0.8);
+}
+select{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    font-size: 25px;
+    margin:20px 10px;
+    background-color: rgba(209, 180, 180, 0.8);
+}
+.alarm{
+    width: 100px;
+    height: 60px;
+    background-color: rgba(209, 180, 180, 0.8);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+}
+.buttons{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.alarm:hover {
+    opacity: .8;
+    background-color: rgba(214, 197, 197, 0.5);
+}
+.p{
+    color: rgba(209, 180, 180, 0.8);
+    font-size: 30px;
+    margin-top: 20px;
+}
+.hide{
+    visibility: hidden;
+}
